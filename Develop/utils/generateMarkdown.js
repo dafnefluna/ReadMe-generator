@@ -1,22 +1,9 @@
 import { makeBadge, ValidationError } from "badge-maker";
 
-// const format = {
-//   label: license,
-//   message: licenseLink,
-//   color: "brightgreen",
-// };
-
-// const svg = makeBadge(format);
-// console.log(svg); // <svg...
-
-// try {
-//   makeBadge({});
-// } catch (e) {
-//   console.log(e); // ValidationError: Field `message` is required
-// }
-// the error message is because I have not completed the other functions here. The svg should be pathed into the generate markdown for readme
 function renderLicenseBadge(license) {
+  console.log("***********testing");
   const licenseLink = renderLicenseLink(license);
+  console.log(licenseLink);
 
   const format = {
     label: license,
@@ -24,11 +11,8 @@ function renderLicenseBadge(license) {
     color: "brightgreen",
   };
 
-  const svg = makeBadge(format);
-  console.log(svg); // <svg...
-
   try {
-    makeBadge({});
+    return makeBadge(format);
   } catch (e) {
     console.log(e); // ValidationError: Field `message` is required
   }
@@ -38,21 +22,24 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 
 function renderLicenseLink(license) {
+  console.log("----------", license);
   switch (license) {
-    case "Apache License 2.0":
+    case "Apache-2.0":
       return "[https://www.apache.org/licenses/LICENSE-2.0]";
-    case "BSD Licenses":
+    case "BSD-3":
       return "[https://opensource.org/license/bsd-3-clause]";
-    case "Creative Commons Licenses":
+    case "ccl":
       return "[https://creativecommons.org/share-your-work/cclicenses/]";
-    case "GNU General Public License v3.0":
+    case "GPL-3.0":
       return "[https://www.gnu.org/licenses/gpl-3.0.html]";
-    case "MIT License":
+    case "MIT":
       return "[https://opensource.org/licenses/MIT]";
-    case "Mozilla Public License":
+    case "MPL":
       return "[https://www.mozilla.org/en-US/MPL/]";
     case "other":
       return "";
+    default:
+      return "License info not provided";
   }
 }
 
@@ -65,7 +52,7 @@ This project is licensed under the terms of the ${license}. Visit  for more info
 If the project license is listed as other or has no license, please email the developers for more information.
 
 ## Badges
-${renderLicenseBadge()}`;
+${renderLicenseBadge(license)}`;
 }
 
 // TODO: Create a function to generate markdown for README

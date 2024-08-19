@@ -1,9 +1,7 @@
 import { makeBadge, ValidationError } from "badge-maker";
 
 function renderLicenseBadge(license) {
-  console.log("***********testing");
   const licenseLink = renderLicenseLink(license);
-  console.log(licenseLink);
 
   const format = {
     label: license,
@@ -22,7 +20,6 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 
 function renderLicenseLink(license) {
-  console.log("----------", license);
   switch (license) {
     case "Apache-2.0":
       return "[https://www.apache.org/licenses/LICENSE-2.0]";
@@ -93,7 +90,7 @@ ${data.test}
 
 ## Contact Us
 For more information about our project please visit our Github Repo ${
-    data.githublink
+    data.githubLink
   }. Check out our other projects by vising our github at ${
     data.github
   } or email us at ${data.email}

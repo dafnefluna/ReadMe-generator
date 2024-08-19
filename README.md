@@ -4,6 +4,8 @@
 
 The README generator is a tool for developers to quickly put together a properly formatted and hight quality README.md template to include in their GitHub Repositories or for their projects. The generator gives users the option to fill out as many or as little sections regarding their project which gives developers the opportunity to expand their read me, as their project grows as well. This tool is intended to help the busy developer focus more on the project and still create an accessible README. The limitations of this generator is that it only includes the more popular licenses. For users who license their work differently, the license section will refer readers to contact you directly. Users may also update their README.md after its been generated with the approppriate information.
 
+For more guidance on running this program please check out this video (<https://drive.google.com/file/d/1MwnYdsiX85t4HsmeMZxbO3F60oH9hAFo/view>)
+
 - [Installation] (#installation)
 - [Usage] (#usage)
 - [Credits] (#credits)

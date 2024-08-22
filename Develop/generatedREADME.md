@@ -1,7 +1,7 @@
-# Demo Title Project
+# Employee Tracker
 
 ##  Description
-Demo Description of Project. Goes here
+The Employee Tracker is a command-line application for a business owner to manage their company's employee database, using Node.js, Inquirer, and PostgreSQL. 
 
 
 ## Table of Contents
@@ -12,10 +12,10 @@ Demo Description of Project. Goes here
 - [License](#license)
 
 ## Installation
-Install NPM, NODE, Shield.io
+To properly install this application a user must have a PostgreSQL account and node.js installed. Using the npm library you can find the documentation to install inquirer, the pg.package.  
 
 ## Usage
-use it as you see fit
+To run this application these are the proper steps.
 
 ## License
 This project is licensed under the terms of the MIT. Visit  for more information
@@ -32,11 +32,11 @@ As contributors and maintainers of this project, we pledge to respect all people
 We are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.
 
 If you'd like to contribute further to the development of this project you can do so like this:
-email me
+If you'd like to contribute to this application please connect with Developr Dafne Luna t dafne.faviola.luan@gmail.com
 
 
 ## Tests
-just run it a couple times
+
 
 ## Contact Us
-For more information about our project please visit our Github Repo dafnefluna.com. Check out our other projects by vising our github at dafnefluna or email us at dafne.faviola.luna@gmail.com
+For more information about our project please visit our Github Repo https://github.com/dafnefluna/employee-tracker. Check out our other projects by vising our github at dafnefluna or email us at dafne.faviola.luna@gmail.com

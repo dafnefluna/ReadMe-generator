@@ -1,7 +1,7 @@
-# Employee Tracker
+# Dafne's Dev Profile
 
 ##  Description
-The Employee Tracker is a command-line application for a business owner to manage their company's employee database, using Node.js, Inquirer, and PostgreSQL. 
+Welcome to my portfolio! This app is an insight into my developer journey and some examples of my  wor my work. 
 
 
 ## Table of Contents
@@ -12,10 +12,10 @@ The Employee Tracker is a command-line application for a business owner to manag
 - [License](#license)
 
 ## Installation
-To properly install this application a user must have a PostgreSQL account and node.js installed. Using the npm library you can find the documentation to install inquirer, the pg.package.  
+N/A
 
 ## Usage
-To run this application these are the proper steps.
+you can visity netlify to see my deployed portfolio
 
 ## License
 This project is licensed under the terms of the MIT. Visit  for more information
@@ -32,11 +32,11 @@ As contributors and maintainers of this project, we pledge to respect all people
 We are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.
 
 If you'd like to contribute further to the development of this project you can do so like this:
-If you'd like to contribute to this application please connect with Developr Dafne Luna t dafne.faviola.luan@gmail.com
+At this moment I am accepting feedback on my porfolio samples. Any is appreciated and welcome.
 
 
 ## Tests
-
+N/A
 
 ## Contact Us
-For more information about our project please visit our Github Repo https://github.com/dafnefluna/employee-tracker. Check out our other projects by vising our github at dafnefluna or email us at dafne.faviola.luna@gmail.com
+For more information about our project please visit our Github Repo https://github.com/dafnefluna/dafnes-portfolio. Check out our other projects by vising our github at dafnefluna or email us at dafne.faviola.luna@gmail.com
